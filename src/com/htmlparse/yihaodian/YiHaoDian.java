@@ -1,8 +1,8 @@
 package com.htmlparse.yihaodian;
 
-import com.baseUrl.TSZPage;
+import com.baseUrl.JingDongPage;
 
-public class YiHaoDian extends TSZPage {
+public class YiHaoDian extends JingDongPage {
 
 	public YiHaoDian(String url) {
 		super(url);
