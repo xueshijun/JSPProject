@@ -70,7 +70,6 @@ public class JingDongItemPackage {
 		this.ItemLargessInfo=replaceString(ItemLargessInfo);
 		this.ItemType=replaceString(ItemType);
 	}
-
 	
 	public String replaceString(String str){
 		HashMap<String, String> map=new HashMap<String, String>();
@@ -78,8 +77,8 @@ public class JingDongItemPackage {
 			return "";
 		}
 		else{ 
-			map.put("'","\'");
-//			map.put("'","бо");
+//			map.put("'","\'");
+			map.put("'","бо");
 			for(int i=0;i<str.length();i++){
 				String charat=str.substring(i, i+1);
 				if(map.get(charat)!=null){

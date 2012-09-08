@@ -32,10 +32,11 @@ public class MySql {
 //		String url = "jdbc:mysql://localhost:3306/"+strDBName+"?user=root&password=xueshijun&unicode=true&charachterEncoding=utf8"; 
     	 
 
-// 		MySQL配置时的用户名 
+
+    	// MySQL配置时的用户名 
     	String user = "root";
 //    	String user = "xueshijun"; 
-// 		Java连接MySQL配置时的密码 
+    	// Java连接MySQL配置时的密码 
     	String password = "xueshijun"; 
 		try
         { 
@@ -63,8 +64,6 @@ public class MySql {
 	catch ( SQLException sqlex ) 
 		{   sqlex.printStackTrace();   }   }    
 
-	
-	
 	private void displayResultSet( ResultSet rs )   throws SQLException   
 	{   
 		//定位到达第一条记录  

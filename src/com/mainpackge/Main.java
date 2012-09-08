@@ -240,7 +240,6 @@ public class Main extends java.awt.Frame {
 
 	static Connection conn = JingDongDB.mysql.getConnetction("test");
 
-	
 	/**
 	 * 创建数据库
 	 * 
@@ -298,7 +297,8 @@ public class Main extends java.awt.Frame {
 						count = 100001;
 
 						while ((count += 104) < 700001) {
-							String url = "http://www.360buy.com/product/" + count + ".html";
+							String url = "http://www.360buy.com/product/" + count
+									+ ".html";
 							try {
 								JingDong jingDong = new JingDong(url);
 

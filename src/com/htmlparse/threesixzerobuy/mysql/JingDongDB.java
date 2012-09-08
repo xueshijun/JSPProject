@@ -9,7 +9,7 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 
-import com.baseUrl.JingDongPage;
+import com.baseUrl.TSZPage;
 import com.htmlparse.threesixzerobuy.JingDong;
 import com.htmlparse.threesixzerobuy.JingDongItem;
 import com.htmlparse.threesixzerobuy.JingDongItemPackage;
