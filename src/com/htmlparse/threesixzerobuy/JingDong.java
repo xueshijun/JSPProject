@@ -13,26 +13,26 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import com.baseUrl.PageInterface;
-import com.baseUrl.TSZPage;
+import com.baseUrl.JingDongPage;
 import com.htmlparse.threesixzerobuy.JingDongItem.ItemImg;
 import com.htmlparse.threesixzerobuy.JingDongItem.ItemType;
 
  
 
-public class JingDong extends TSZPage{ 
+public class JingDong extends JingDongPage{ 
 
 	//页面超时限制
-	private  int CONNECT_Time_OUT=3000;
+	private int CONNECT_Time_OUT=3000;
 	
 	Document doc=null;
 	Document mobileDoc=null;
 	
-	TSZPage page=null;
+	JingDongPage page=null;
 	JingDongItem jingDongItem;
  
 	public JingDong(String url){
 		super(url);
-		if((page=new TSZPage(url))!=null){
+		if((page=new JingDongPage(url))!=null){
 			 
 			if((doc=initPage())!=null){
 				mobileDoc=initMobilePage();
@@ -45,7 +45,7 @@ public class JingDong extends TSZPage{
 	 * 初始化页面
 	 * @return
 	 */
-	public  Document initPage(){ 
+	public Document initPage(){ 
 			try {
 				return  Jsoup.connect(this.strUrl).timeout(CONNECT_Time_OUT).get();
 			} catch (IOException e) {  
@@ -69,8 +69,8 @@ public class JingDong extends TSZPage{
 //			.userAgent("Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.7 (KHTML, like Gecko) Chrome/16.0.912.77 Safari/535.7") // 设置User-Agent   
 //          .timeout(3000) // 设置连接超时时间   
 //          .get();
-			// "Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9.2.15)"
-			//"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.7 (KHTML, like Gecko) Chrome/16.0.912.77 Safari/535.7";
+// 			"Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9.2.15)"
+//			"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.7 (KHTML, like Gecko) Chrome/16.0.912.77 Safari/535.7";
 //			Jsoup.connect("http://www.dajie.com/account/loginsubmit").data("d.email", "XXXXXXX").data("d.password", "XXXXXX").data("d.rememberMe", "1").method(Method.POST).execute();    
 	} 
 	 public final static String[] UserAgent = {
@@ -231,7 +231,6 @@ public class JingDong extends TSZPage{
 		return jingDongItem.getItemTitleAdvertiseWord(mobileDoc);
 	}
 
-	
 	/**
 	 * 【异步数据】
 	 * 获取商品促销信息
@@ -240,7 +239,7 @@ public class JingDong extends TSZPage{
 		return jingDongItem.getItemSalesPromotionInfo(mobileDoc);
 	}
 
-	
+
 	/**
 	 * ****************有BUG***************************
 	 * 

@@ -9,7 +9,7 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 
-import com.baseUrl.TSZPage;
+import com.baseUrl.JingDongPage;
 import com.htmlparse.threesixzerobuy.JingDong;
 import com.htmlparse.threesixzerobuy.JingDongItem;
 import com.htmlparse.threesixzerobuy.JingDongItemPackage;
@@ -58,7 +58,7 @@ public class JingDongDB{
 	
 	
 	public static MySql mysql=new MySql();
-	public   void mymain(String[] args) {
+	public static  void main(String[] args) {
 //		try{ 	
 //			JingDongItemPackage jingDongItemPackage=null;
 //			Connection conn=mysql.getConnetction("test"); 

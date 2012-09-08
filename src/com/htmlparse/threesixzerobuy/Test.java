@@ -7,14 +7,12 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 
-import com.baseUrl.TSZPage;
+import com.baseUrl.JingDongPage;
 import com.htmlparse.threesixzerobuy.JingDongItem.ItemImg;
 import com.htmlparse.threesixzerobuy.JingDongItem.ItemType;
 
 
 public class Test{
- 
-
 	/**
 	 * @param 
 	 * @param
