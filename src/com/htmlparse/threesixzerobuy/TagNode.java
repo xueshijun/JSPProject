@@ -1,4 +1,4 @@
-package com.htmlparse.amazon;
+package com.htmlparse.threesixzerobuy;
 
 public class TagNode {
 
@@ -22,6 +22,6 @@ public class TagNode {
 	}
 	public String toString(){
 //		return "Node:"+name+"  href: "+href;
-		return name+"---------"+href+"\n";
+		return name+"href: "+href+"\n";
 	}
 }

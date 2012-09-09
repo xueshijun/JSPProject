@@ -17,8 +17,8 @@ import org.jdesktop.swingx.util.OS;
 public class OCR {   
     private final String LANG_OPTION = "-l";  //英文字母小写l，并非数字1   
     private final String EOL = System.getProperty("line.separator");   
-//    private String tessPath = "C:\\Program Files\\Tesseract-OCR";   
-    private String tessPath = new File("Tesseract-OCR").getAbsolutePath();   
+    private String tessPath = "C:\\Program Files\\Tesseract-OCR";   
+//    private String tessPath = new File("Tesseract-OCR").getAbsolutePath();   
        
     public String recognizeText(File imageFile,String imageFormat)throws Exception{   
         File tempImage = ImageIOHelper.createImage(imageFile,imageFormat);   
@@ -36,7 +36,7 @@ public class OCR {
         cmd.add(outputFile.getName());   
         cmd.add(LANG_OPTION);   
         cmd.add("chi_sim");   
-//        cmd.add("eng");   
+        cmd.add("eng");   
            
         ProcessBuilder pb = new ProcessBuilder();   
         pb.directory(imageFile.getParentFile());   

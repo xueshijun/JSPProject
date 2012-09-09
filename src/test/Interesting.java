@@ -11,8 +11,7 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
-
-import com.htmlparse.threesixzerobuy.JingDongItem.ItemImg;  
+ 
 import com.htmlparse.yihaodian.YiHaoDianItem.ItemType;
 
 import com.sun.jndi.toolkit.url.Uri;

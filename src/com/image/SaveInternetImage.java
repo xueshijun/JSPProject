@@ -2,6 +2,7 @@ package com.image;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
+import java.io.File;
 import java.io.FileOutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
@@ -44,16 +45,19 @@ public class SaveInternetImage {
   	public static void main(String[] args)
   	{
   		SaveInternetImage pic = new SaveInternetImage();/*创建实例*/
-  		  String photoUrl ="http://price.360buyimg.com/gp280127,3.png";
-  		  /*photoUrl.substring(photoUrl.lastIndexOf("/")的方法将返回最后一个符号为
-  		  * ‘/’后photoUrl变量中的所有字符，包裹此自身符号*/
-  		  String fileName = photoUrl.substring(photoUrl.lastIndexOf("/")+1);
-  		  String filePath = "E:";
-  		  /*调用函数，并且进行传参*/ 
-  		  if(pic.saveUrlAs(photoUrl, filePath + fileName)){
-	  		  System.out.println("Run ok!\n Get URL file " );
-	  		  System.out.println(filePath);
-	  		  System.out.println(fileName);
-  		  }
+  		for(int i=1;i<9999999;i++){
+//	  		  String photoUrl ="http://price.360buyimg.com/gp280127,3.png";
+	  		  String photoUrl ="http://price.360buyimg.com/gp"+i+",3.png";
+	  		  /*photoUrl.substring(photoUrl.lastIndexOf("/")的方法将返回最后一个符号为
+	  		  * ‘/’后photoUrl变量中的所有字符，包裹此自身符号*/
+	  		  String fileName = photoUrl.substring(photoUrl.lastIndexOf("/")+1);
+	  		  String filePath = "E:"+File.separator+"images"+File.separator;
+	  		  /*调用函数，并且进行传参*/ 
+	  		  if(pic.saveUrlAs(photoUrl, filePath + fileName)){
+		  		  System.out.println("Run ok!\n Get URL file " );
+		  		  System.out.println(filePath);
+		  		  System.out.println(fileName);
+	  		  }
+  		}
   	} 
 }

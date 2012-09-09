@@ -10,8 +10,6 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 
 import com.baseUrl.JingDongPage;
-import com.htmlparse.threesixzerobuy.JingDong;
-import com.htmlparse.threesixzerobuy.JingDongItem;
 import com.htmlparse.threesixzerobuy.JingDongItemPackage;
 import com.htmlparse.threesixzerobuy.JingDongItem.ItemImg;
 import com.htmlparse.threesixzerobuy.JingDongItem.ItemType;

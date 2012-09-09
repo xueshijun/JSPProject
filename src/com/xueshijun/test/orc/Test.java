@@ -8,9 +8,9 @@ import com.ocr.OCR;
  
 public class Test {
  
-    public static void main(String[] args) {   
-        String path = "C:/aa.png";      
-        try {  
+    public static void main(String[] args) throws Exception {   
+        String path = "E:\\images\\gp280127,3.png";      
+ 
 //        	int count=0;
 //        	while(count<10) {
 	        	System.out.println("=============BEGIN================");
@@ -22,11 +22,7 @@ public class Test {
 	        	System.out.println(timeOfSearch+"ms\n=============END================");
 //	        	count++;
 //        	}
-        } catch (IOException e) {      
-            e.printStackTrace();      
-        } catch (Exception e) {   
-            e.printStackTrace();   
-        }       
+      
     }   
 
 }

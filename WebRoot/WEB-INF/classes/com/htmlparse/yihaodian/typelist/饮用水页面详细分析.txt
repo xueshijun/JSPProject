@@ -1,0 +1,63 @@
+====因各省份所售商品不同，如果您切换省份，部分商品可能会从购物车中移除========
+华东地区
+--------1)" >上海</a>
+	基地址(默认每页显式48)
+	http://www.yihaodian.com/ctg/s2/c5228-%E9%A5%AE%E7%94%A8%E6%B0%B4/1/
+	
+	商品数180
+	总页数：4
+	第一页： (与基地址显示的不一样！！！默认每页显示32,即使与基地址显式数量一致,商品列表内容也是不一样的！！！)
+	http://www.yihaodian.com/ctg/s2/c5228-%E9%A5%AE%E7%94%A8%E6%B0%B4/b0/a-s1-v0-p1-price-d0-f04-m1-rt0-pid-k/ 
+	第二页 
+	http://www.yihaodian.com/ctg/s2/c5228-%E9%A5%AE%E7%94%A8%E6%B0%B4/b0/a-s1-v0-p2-price-d0-f04-m1-rt0-pid-k/ 
+	第三页 
+	http://www.yihaodian.com/ctg/s2/c5228-%E9%A5%AE%E7%94%A8%E6%B0%B4/b0/a-s1-v0-p3-price-d0-f04-m1-rt0-pid-k/ 
+	第四页  
+	http://www.yihaodian.com/ctg/s2/c5228-%E9%A5%AE%E7%94%A8%E6%B0%B4/b0/a-s1-v0-p4-price-d0-f04-m1-rt0-pid-k/ 
+
+ 
+
+
+华北东北
+--------2)" >北京</a>	   
+	基地址(默认每页显式48)
+	http://www.yihaodian.com/ctg/s2/c5228-%E9%A5%AE%E7%94%A8%E6%B0%B4/2/	
+	商品数150
+	总页数：4
+	第一页：
+	http://www.yihaodian.com/ctg/s2/c5228-%E9%A5%AE%E7%94%A8%E6%B0%B4/b0/a-s1-v0-p1-price-d0-f04-m1-rt0-pid-k/
+	第二页 (总页数变了成5页！？？？？)
+	http://www.yihaodian.com/ctg/s2/c5228-%E9%A5%AE%E7%94%A8%E6%B0%B4/b0/a-s1-v0-p2-price-d0-f04-m1-rt0-pid-k/ 	
+ 	第三页
+	http://www.yihaodian.com/ctg/s2/c5228-%E9%A5%AE%E7%94%A8%E6%B0%B4/b0/a-s1-v0-p3-price-d0-f04-m1-rt0-pid-k/
+	第四页  
+	http://www.yihaodian.com/ctg/s2/c5228-%E9%A5%AE%E7%94%A8%E6%B0%B4/b0/a-s1-v0-p4-price-d0-f04-m1-rt0-pid-k/
+	第五页
+	http://www.yihaodian.com/ctg/s2/c5228-%E9%A5%AE%E7%94%A8%E6%B0%B4/b0/a-s1-v0-p5-price-d0-f04-m1-rt0-pid-k/
+
+
+
+
+华南西南</dt> 
+--------20)" >广东</a>  
+	基地址(默认每页显式48)
+	http://www.yihaodian.com/ctg/s2/c5228-%E9%A5%AE%E7%94%A8%E6%B0%B4/20/
+	商品数141
+	总页数：3
+	第一页：
+	http://www.yihaodian.com/ctg/s2/c5228-%E9%A5%AE%E7%94%A8%E6%B0%B4/20/
+	第二页 (总页数变了成5页！？？？？)
+	http://www.yihaodian.com/ctg/s2/c5228-%E9%A5%AE%E7%94%A8%E6%B0%B4/b0/a-s1-v0-p2-price-d0-f04-m1-rt0-pid-k/ 
+	第三页
+	http://www.yihaodian.com/ctg/s2/c5228-%E9%A5%AE%E7%94%A8%E6%B0%B4/b0/a-s1-v0-p3-price-d0-f04-m1-rt0-pid-k/
+	第四页  
+	http://www.yihaodian.com/ctg/s2/c5228-%E9%A5%AE%E7%94%A8%E6%B0%B4/b0/a-s1-v0-p4-price-d0-f04-m1-rt0-pid-k/
+	第五页
+	http://www.yihaodian.com/ctg/s2/c5228-%E9%A5%AE%E7%94%A8%E6%B0%B4/b0/a-s1-v0-p5-price-d0-f04-m1-rt0-pid-k/	
+
+
+
+
+<dt>华中西北</dt> 
+--------18)" >湖北</a> 
+</dd>
